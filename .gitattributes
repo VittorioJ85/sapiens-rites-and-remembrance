@@ -5,3 +5,5 @@
 *.yml text eol=lf
 *.glb binary
 *.png binary
+# Compatibility guards compare reference snapshots byte for byte.
+RitesAndRemembrance/compatibility/** -text
