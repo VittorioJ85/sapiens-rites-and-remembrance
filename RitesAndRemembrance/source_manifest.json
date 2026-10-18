@@ -1,0 +1,128 @@
+{
+  "author": "Vittorio",
+  "version": "0.5.0",
+  "source": "User screenshot layout; native resource models and material variants.",
+  "assemblies": {
+    "rr_gravestone": [
+      {
+        "key": "rr_soil_1",
+        "group": "rr_soil",
+        "model": "dirt",
+        "pos": [
+          -0.17,
+          0.208,
+          -0.14
+        ],
+        "rotation": null
+      },
+      {
+        "key": "rr_soil_2",
+        "group": "rr_soil",
+        "model": "dirt",
+        "pos": [
+          -0.17,
+          0.208,
+          0.14
+        ],
+        "rotation": null
+      },
+      {
+        "key": "rr_soil_3",
+        "group": "rr_soil",
+        "model": "dirt",
+        "pos": [
+          0.17,
+          0.208,
+          -0.14
+        ],
+        "rotation": null
+      },
+      {
+        "key": "rr_soil_4",
+        "group": "rr_soil",
+        "model": "dirt",
+        "pos": [
+          0.17,
+          0.208,
+          0.14
+        ],
+        "rotation": null
+      },
+      {
+        "key": "rockAny_1",
+        "group": "rockAny",
+        "model": "rock1",
+        "pos": [
+          0,
+          0.59,
+          0
+        ],
+        "rotation": [
+          0.7071067811865476,
+          0,
+          0,
+          0.7071067811865476
+        ]
+      }
+    ],
+    "rr_urn": [
+      {
+        "key": "rr_tile_1",
+        "group": "rr_tile",
+        "model": "firedTile",
+        "pos": [
+          0,
+          0.05373771861195564,
+          0
+        ],
+        "rotation": null
+      },
+      {
+        "key": "rr_tile_2",
+        "group": "rr_tile",
+        "model": "firedTile",
+        "pos": [
+          0,
+          0.1608949676156044,
+          0
+        ],
+        "rotation": null
+      },
+      {
+        "key": "rr_tile_3",
+        "group": "rr_tile",
+        "model": "firedTile",
+        "pos": [
+          0,
+          0.26805221661925316,
+          0
+        ],
+        "rotation": null
+      },
+      {
+        "key": "rr_urnMaterial_1",
+        "group": "rr_urnMaterial",
+        "model": "firedUrn",
+        "pos": [
+          0,
+          0.7474717470109462,
+          0
+        ],
+        "rotation": null
+      }
+    ]
+  },
+  "sourceSHA256": {
+    "tile": "e185e0f249c1c9bbd560e39f237af5d42134e8b20bb5753fa7e88d6ec09c65af",
+    "dirt": "09379c87c29c76ab6b09893a9f1d95fa11911d390db04b9f194135756275e051",
+    "rock1": "46b48902e8582c0b2f8f8acfcfb726b2cc394307cdce5cb897ac1c48a76800a1",
+    "firedUrn": "20c73b861db45dc8f2126cd8d7e91abb44bbbd528ea21c279e101c4308f5656a"
+  },
+  "personalMemorial": {
+    "key": "rr_personal",
+    "group": "rr_personalItem",
+    "count": 1,
+    "appearance": "Selected native resource object",
+    "model": "rr_personal.glb"
+  }
+}

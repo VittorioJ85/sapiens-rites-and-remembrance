@@ -1,0 +1,20 @@
+name: Validate and package
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate metadata and verify package bytes
+        run: python3 tools/package.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: RitesAndRemembrance-package
+          path: dist/
+          retention-days: 14
