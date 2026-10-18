@@ -32,6 +32,8 @@ python rites-preview/test_tribal_ceremony.py --edition Unstable
 
 The runner uses the existing local installation paths documented in `AGENTS.md`.
 These tests cover ceremony behavior and UI mocks, not the full mod test suite.
+Run `./tools/check.ps1` to execute both editions and then package the mod in one
+step. If Python is not on PATH, supply `-Python` with its executable path.
 Game files and Family Tree integration fixtures are not included in this repo.
 CI packaging checks do not establish Lua runtime or in-engine correctness.
 Run in-game checks separately in a disposable world.
